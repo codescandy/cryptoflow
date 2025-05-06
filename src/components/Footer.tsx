@@ -1,4 +1,3 @@
-
 import { Facebook, Twitter, Instagram, Linkedin, Github } from 'lucide-react';
 
 const Footer = () => {
@@ -12,9 +11,7 @@ const Footer = () => {
             <h2 className="text-2xl font-bold text-white mb-4">
               Crypto<span className="text-crypto-purple">Flow</span>
             </h2>
-            <p className="text-gray-400 mb-6 max-w-xs">
-              The most trusted cryptocurrency platform, empowering traders with innovative tools and unparalleled security.
-            </p>
+            <p className="text-gray-400 mb-6 max-w-xs">The most trusted cryptocurrency platform, empowering traders with innovative tools and unparalleled security.</p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-crypto-purple transition-colors">
                 <Facebook className="h-5 w-5" />
@@ -38,50 +35,114 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          
+
           <div>
             <h3 className="text-white font-medium mb-4">Products</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-crypto-purple transition-colors">Exchange</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-crypto-purple transition-colors">Wallet</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-crypto-purple transition-colors">API</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-crypto-purple transition-colors">Institutional</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-crypto-purple transition-colors">DeFi Platform</a></li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-crypto-purple transition-colors">
+                  Exchange
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-crypto-purple transition-colors">
+                  Wallet
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-crypto-purple transition-colors">
+                  API
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-crypto-purple transition-colors">
+                  Institutional
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-crypto-purple transition-colors">
+                  DeFi Platform
+                </a>
+              </li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-white font-medium mb-4">Resources</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-crypto-purple transition-colors">Blog</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-crypto-purple transition-colors">Tutorials</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-crypto-purple transition-colors">Market Data</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-crypto-purple transition-colors">Documentation</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-crypto-purple transition-colors">Help Center</a></li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-crypto-purple transition-colors">
+                  Blog
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-crypto-purple transition-colors">
+                  Tutorials
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-crypto-purple transition-colors">
+                  Market Data
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-crypto-purple transition-colors">
+                  Documentation
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-crypto-purple transition-colors">
+                  Help Center
+                </a>
+              </li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-white font-medium mb-4">Company</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-crypto-purple transition-colors">About</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-crypto-purple transition-colors">Careers</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-crypto-purple transition-colors">Press</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-crypto-purple transition-colors">Legal & Privacy</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-crypto-purple transition-colors">Contact Us</a></li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-crypto-purple transition-colors">
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-crypto-purple transition-colors">
+                  Careers
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-crypto-purple transition-colors">
+                  Press
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-crypto-purple transition-colors">
+                  Legal & Privacy
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-crypto-purple transition-colors">
+                  Contact Us
+                </a>
+              </li>
             </ul>
           </div>
         </div>
-        
+
         <div className="border-t border-white/10 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              &copy; {currentYear} CryptoFlow. All rights reserved.
-            </p>
+            <p className="text-gray-400 text-sm mb-4 md:mb-0">&copy; {currentYear} CryptoFlow. All rights reserved. Build By Codescandy</p>
             <div className="flex space-x-6">
-              <a href="#" className="text-gray-400 hover:text-crypto-purple text-sm transition-colors">Terms of Service</a>
-              <a href="#" className="text-gray-400 hover:text-crypto-purple text-sm transition-colors">Privacy Policy</a>
-              <a href="#" className="text-gray-400 hover:text-crypto-purple text-sm transition-colors">Cookie Policy</a>
+              <a href="#" className="text-gray-400 hover:text-crypto-purple text-sm transition-colors">
+                Terms of Service
+              </a>
+              <a href="#" className="text-gray-400 hover:text-crypto-purple text-sm transition-colors">
+                Privacy Policy
+              </a>
+              <a href="#" className="text-gray-400 hover:text-crypto-purple text-sm transition-colors">
+                Cookie Policy
+              </a>
             </div>
           </div>
         </div>
